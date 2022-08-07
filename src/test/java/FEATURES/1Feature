@@ -1,0 +1,10 @@
+Feature : Pre Booking web site Amimir
+  Scenario : Enter home page Amimir select city,date and choose the first hotel until you arrive on the booking page
+  Given The user enters the website Amimir
+  When the page is loaded correctly
+  And Search for "BARCE" and validate that Barcelona appears in the list
+  And Select any dates
+  And Check that hotels list has been loaded and updated after few seconds
+  And Select the first hotel
+  And Select Select the cheapest room
+  Then the user arrives on the booking page
